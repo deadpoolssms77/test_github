@@ -37,7 +37,7 @@ public class customAdapter_doanhso extends ArrayAdapter {
             TextView txt = (TextView) convertView.findViewById(R.id.txt_item);
             ImageView img = (ImageView) convertView.findViewById(R.id.img_item);
             String string = myArry.get(position);
-            txt.setText(string);
+            txt.setText(string.toString());
             img.setImageResource(R.drawable.money);
         }
         return convertView;

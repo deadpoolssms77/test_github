@@ -25,6 +25,7 @@ public class MainActivity extends AppCompatActivity {
         medt_password = (EditText) findViewById(R.id.edt_password);
         mbtnExit = (Button) findViewById(R.id.btn_exit);
         mbtnLogin = (Button) findViewById(R.id.btn_login);
+        medt_login.requestFocus();
         mbtnExit.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {

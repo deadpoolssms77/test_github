@@ -55,5 +55,12 @@ public class Activity2 extends AppCompatActivity {
                 startActivity(intent);
             }
         });
+        imbKH.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent = new Intent(Activity2.this, activityKhachHang.class);
+                startActivity(intent);
+            }
+        });
     }
 }
