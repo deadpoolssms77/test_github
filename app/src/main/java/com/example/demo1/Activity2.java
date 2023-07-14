@@ -62,5 +62,19 @@ public class Activity2 extends AppCompatActivity {
                 startActivity(intent);
             }
         });
+        imbDST.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent = new Intent(Activity2.this, Activity_ChuyenXe.class);
+                startActivity(intent);
+            }
+        });
+        imbTCSP.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent = new Intent(Activity2.this, Activity_TraCuuSanPham.class);
+                startActivity(intent);
+            }
+        });
     }
 }

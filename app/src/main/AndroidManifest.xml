@@ -25,6 +25,12 @@
             android:name=".activityKhachHang"
             android:label="Activity Khach Hang" />
         <activity
+            android:name=".Activity_ChuyenXe"
+            android:label="Activity Chuyen Xe" />
+        <activity
+            android:name=".Activity_TraCuuSanPham"
+            android:label="Activity Tra Cuu San Pham" />
+        <activity
             android:name=".MainActivity"
             android:exported="true">
             <intent-filter>
